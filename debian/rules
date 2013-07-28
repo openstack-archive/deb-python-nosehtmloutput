@@ -4,5 +4,8 @@ UPSTREAM_GIT = git://github.com/cboylan/nose-html-output.git
 include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
-	dh $@  --with python2
+	dh $@ --buildsystem=python_distutils --with python2
 
+override_dh_clean:
+	dh_clean -O--buildsystem=python_distutils
+	rm -rf nose-*-py*.egg

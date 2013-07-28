@@ -8,4 +8,4 @@ include /usr/share/openstack-pkg-tools/pkgos.make
 
 override_dh_clean:
 	dh_clean -O--buildsystem=python_distutils
-	rm -rf nose-*-py*.egg
+	rm -rf nose-*-py*.egg nosehtmloutput.egg-info

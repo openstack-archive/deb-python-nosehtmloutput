@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: nosehtmloutput
-Source: https://github.com/cboylan/nose-html-output
+Source: git://github.com/cboylan/nose-html-output.git
 
 Files: debian/*
 Copyright: (c) 2013, Thomas Goirand <zigo@debian.org>
@@ -9,6 +9,7 @@ License: Apache-2-and-BSD-3-clauses
 Files: *
 Copyright: (c) 2013, Hewlett-Packard Development Company, L.P.
            (c) 2004-2007, Wai Yip Tung
+           (c) 2012, Clark Boylan <clark.boylan@gmail.com>
 License: Apache-2-and-BSD-3-clauses
 
 License: Apache-2-and-BSD-3-clauses

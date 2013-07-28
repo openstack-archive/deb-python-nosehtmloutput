@@ -1,0 +1,5 @@
+python-nosehtmloutput (0.0.4-1) unstable; urgency=low
+
+  * Initial release. (Closes: #718041)
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 28 Jul 2013 14:49:57 +0800

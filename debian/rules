@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+UPSTREAM_GIT = git://github.com/<please-user>/nosehtmloutput.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+
+%:
+	dh $@  --with python2
+

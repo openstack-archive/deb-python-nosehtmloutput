@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: nosehtmloutput
-Source: git://github.com/cboylan/nose-html-output.git
+Source: https://github.com/cboylan/nose-html-output
 
 Files: debian/*
 Copyright: (c) 2013, Thomas Goirand <zigo@debian.org>

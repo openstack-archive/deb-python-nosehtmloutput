@@ -1,0 +1,5 @@
+Verified+1: Jenkins
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Reviewed-on: https://review.openstack.org/11778
+Project: openstack/deb-python-nosehtmloutput
+Branch: refs/heads/master
